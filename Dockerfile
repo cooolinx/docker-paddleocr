@@ -14,5 +14,4 @@ RUN if [[ ! -z "$dev" ]]; then \
       pip install paddleocr==2.6.0; \
     fi
 
-ENTRYPOINT paddleocr
-CMD -h
+CMD paddleocr -h
